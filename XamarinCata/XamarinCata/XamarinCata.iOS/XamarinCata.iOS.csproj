@@ -160,12 +160,6 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
-      <Project>{285E024E-F186-4516-987E-908A6007C629}</Project>
-      <Name>XamarinCata.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard">
       <SubType>Designer</SubType>
@@ -216,6 +210,12 @@
     <BundleResource Include="Resources\profile_generic%402x.png" />
     <BundleResource Include="Resources\profile_generic%403x.png" />
     <BundleResource Include="Resources\my_item_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
+      <Project>{285e024e-f186-4516-987e-908a6007c629}</Project>
+      <Name>XamarinCata.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

@@ -1,7 +1,6 @@
 ﻿
 using System;
 using System.Windows.Input;
-using Plugin.Share;
 
 namespace XamarinCata.ViewModel
 {
@@ -31,7 +30,7 @@ namespace XamarinCata.ViewModel
 
         public void Execute(object parameter)
         {
-            CrossShare.Current.OpenBrowser("https://xamarin.com/platform");
+            //CrossShare.Current.OpenBrowser("https://xamarin.com/platform");
         }
     }
 }

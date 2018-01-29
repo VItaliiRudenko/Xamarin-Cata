@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCata", "XamarinCata\XamarinCata\XamarinCata.csproj", "{285E024E-F186-4516-987E-908A6007C629}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCata.Core", "XamarinCata\XamarinCata\XamarinCata.Core.csproj", "{285E024E-F186-4516-987E-908A6007C629}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCata.Android", "XamarinCata\XamarinCata.Android\XamarinCata.Android.csproj", "{01DB8E23-A783-47A5-B05B-30D8A59A30AC}"
 EndProject

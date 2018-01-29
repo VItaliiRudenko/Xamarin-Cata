@@ -174,7 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
-      <Project>{285E024E-F186-4516-987E-908A6007C629}</Project>
+      <Project>{285e024e-f186-4516-987e-908a6007c629}</Project>
       <Name>XamarinCata.Core</Name>
     </ProjectReference>
   </ItemGroup>
