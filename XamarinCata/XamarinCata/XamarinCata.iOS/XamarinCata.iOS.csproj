@@ -160,9 +160,9 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCata\XamarinCata.csproj">
-      <Project>{14ae4134-3df4-4702-88a9-a00263084e98}</Project>
-      <Name>XamarinCata</Name>
+    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
+      <Project>{285E024E-F186-4516-987E-908A6007C629}</Project>
+      <Name>XamarinCata.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

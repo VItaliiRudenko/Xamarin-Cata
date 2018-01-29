@@ -173,9 +173,9 @@
     <AndroidResource Include="Resources\menu\top_menus.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCata\XamarinCata.csproj">
-      <Project>{27eacc34-9396-4c88-83a0-b29fe21c02d6}</Project>
-      <Name>XamarinCata</Name>
+    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
+      <Project>{285E024E-F186-4516-987E-908A6007C629}</Project>
+      <Name>XamarinCata.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

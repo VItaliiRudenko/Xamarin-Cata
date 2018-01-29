@@ -149,9 +149,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCata\XamarinCata.csproj">
-      <Project>{d3f4c28b-ce5d-4072-a278-93248a46ba05}</Project>
-      <Name>XamarinCata</Name>
+    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
+      <Project>{285E024E-F186-4516-987E-908A6007C629}</Project>
+      <Name>XamarinCata.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
