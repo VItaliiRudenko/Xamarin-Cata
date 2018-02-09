@@ -173,8 +173,8 @@
     <AndroidResource Include="Resources\menu\top_menus.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCata\XamarinCata.Core.csproj">
-      <Project>{285e024e-f186-4516-987e-908a6007c629}</Project>
+    <ProjectReference Include="..\..\SharedComponents\XamarinCata.Core\XamarinCata.Core.csproj">
+      <Project>{2607647c-a257-4af5-b726-246ac0883488}</Project>
       <Name>XamarinCata.Core</Name>
     </ProjectReference>
   </ItemGroup>

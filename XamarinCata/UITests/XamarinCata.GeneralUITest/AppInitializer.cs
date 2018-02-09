@@ -14,12 +14,14 @@ namespace XamarinCata.GeneralUITest
             {
                 return ConfigureApp
                     .Android
-                    .StartApp();
+                    .EnableLocalScreenshots()
+                    .ConnectToApp();
             }
 
             return ConfigureApp
                 .iOS
-                .StartApp();
+                .EnableLocalScreenshots()
+                .ConnectToApp();
         }
     }
 }
